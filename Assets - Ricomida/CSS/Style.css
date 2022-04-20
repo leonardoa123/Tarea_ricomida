@@ -1,0 +1,48 @@
+.new-font{
+    font-family:'Lobster', cursive;
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+}
+.bg-color{
+    background-color: black;
+}
+hr {
+    border: 0; 
+    border-top: 2px solid #000; 
+    height: 0;
+}
+.borde{
+    border: 1px solid #ddd;
+}
+.img{
+    width: 233px;
+    height: 170px;
+    margin-inline-end: 3.3%;
+}
+.carousel-indicators [data-bs-target] {
+    position: relative;
+    float: none;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: #333;
+  }
+h3{
+    border-bottom: 2px solid;
+    border-color: #333;
+    padding-bottom: 7px;
+    width: fit-content;
+}
+.m-especial{
+    padding-top: 150px;
+    padding-bottom: 200px;
+}
+.font-cabin-1{
+    font-family: 'Cabin' bold, sans-serif;
+}
+.font-cabin-2{
+    font-family: 'Cabin', sans-serif;
+}
