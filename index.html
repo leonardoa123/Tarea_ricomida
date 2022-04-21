@@ -58,7 +58,7 @@
                         <p class="card-text text-sm-center text-lg-start font-cabin-2">110 MIN / 6 A 8 PORCIONES</p>
                         <div class="row">
                             <div class="col-4">
-                                <button type="button" class="btn btn-light borde font-cabin-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">
+                                <button id="enviarCorreo" type="button" class="btn btn-light borde font-cabin-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Presiona para enviar a tu correo">
                                     Enviar por correo
                                 </button>
                             </div>
@@ -76,7 +76,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-sm-12">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide d-none d-lg-block" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="" aria-label="Slide 2"></button>
@@ -118,22 +118,22 @@
                 <div class="card container border-light">
                     <img src="./assets/img/recipe-card-1.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title font-cabin-1">PANQUEQUES CON MANJAR Y CREMA</h5>
-                        <p class="card-text font-cabin-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        <h5 id="accion" class="card-title font-cabin-1">PANQUEQUES CON MANJAR Y CREMA</h5>
+                        <p id="desaparece" class="card-text font-cabin-2">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus faucibus orci.</p>
                     </div>
                 </div>
                 <div class="card container border-light">
                     <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title font-cabin-1">TIRAMISÚ</h5>
-                        <p class="card-text font-cabin-2">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        <h5 id="accion2" class="card-title font-cabin-1">TIRAMISÚ</h5>
+                        <p id="desaparece2" class="card-text font-cabin-2">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
                     </div>
                 </div>
                 <div class="card container border-light">
                     <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title font-cabin-1">PLATEADA</h5>
-                        <p class="card-text font-cabin-2">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        <h5 id="accion3" class="card-title font-cabin-1">PLATEADA</h5>
+                        <p id="desaparece3" class="card-text font-cabin-2">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
                     </div>
                 </div>
             </div>
